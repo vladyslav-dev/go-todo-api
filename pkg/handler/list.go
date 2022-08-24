@@ -1,13 +1,17 @@
 package handler
 
-import "github.com/gin-gonic/gin"
+import (
+	"fmt"
+
+	"github.com/gin-gonic/gin"
+)
 
 func (h *Handler) createList(ctx *gin.Context) {
 
 }
 
 func (h *Handler) getAllLists(ctx *gin.Context) {
-
+	fmt.Print("Hello world")
 }
 
 func (h *Handler) getListById(ctx *gin.Context) {
